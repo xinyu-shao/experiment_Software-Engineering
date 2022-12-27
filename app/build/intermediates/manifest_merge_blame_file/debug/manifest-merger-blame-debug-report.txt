@@ -1,0 +1,271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.micode.notes"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:8:5-81
+11-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:8:22-78
+12    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+12-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:9:5-88
+12-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:9:22-85
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:10:5-67
+13-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.READ_CONTACTS" />
+14-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:11:5-72
+14-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:11:22-69
+15    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+15-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:12:5-74
+15-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:12:22-71
+16    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+16-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:13:5-80
+16-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:13:22-77
+17    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+17-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:14:5-71
+17-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:14:22-68
+18    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+18-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:15:5-74
+18-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:15:22-71
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:16:5-81
+19-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:16:22-78
+20
+21    <!-- <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="10"/> -->
+22    <application
+22-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:20:5-140:19
+23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+23-->[com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\7bcee6973217bd9770c756ec60b9d3a0\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+24        android:debuggable="true"
+25        android:icon="@drawable/icon_app"
+25-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:21:9-42
+26        android:label="@string/app_name"
+26-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:22:9-41
+27        android:testOnly="true" >
+28        <activity
+28-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:23:9-37:20
+29            android:name="net.micode.notes.ui.NotesListActivity"
+29-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:24:13-49
+30            android:configChanges="keyboardHidden|orientation|screenSize"
+30-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:25:13-74
+31            android:exported="true"
+31-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:31:13-36
+32            android:label="@string/app_name"
+32-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:26:13-45
+33            android:launchMode="singleTop"
+33-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:27:13-43
+34            android:theme="@style/NoteTheme"
+34-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:28:13-45
+35            android:uiOptions="splitActionBarWhenNarrow"
+35-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:29:13-57
+36            android:windowSoftInputMode="adjustPan" >
+36-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:30:13-52
+37            <intent-filter>
+37-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:33:13-36:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:34:17-69
+38-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:34:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:35:17-77
+40-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:35:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:39:9-69:20
+44            android:name="net.micode.notes.ui.NoteEditActivity"
+44-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:40:13-48
+45            android:configChanges="keyboardHidden|orientation|screenSize"
+45-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:41:13-74
+46            android:exported="false"
+46-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:44:13-37
+47            android:launchMode="singleTop"
+47-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:42:13-43
+48            android:theme="@style/NoteTheme" >
+48-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:43:13-45
+49            <intent-filter>
+49-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:47:13-52:29
+50                <action android:name="android.intent.action.VIEW" />
+50-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:48:17-69
+50-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:48:25-66
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:49:17-76
+52-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:49:27-73
+53
+54                <data android:mimeType="vnd.android.cursor.item/text_note" />
+54-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:17-78
+54-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:23-75
+55                <data android:mimeType="vnd.android.cursor.item/call_note" />
+55-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:17-78
+55-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:23-75
+56            </intent-filter>
+57            <intent-filter>
+57-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:54:13-59:29
+58                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+58-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:55:17-79
+58-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:55:25-76
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:49:17-76
+60-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:49:27-73
+61
+62                <data android:mimeType="vnd.android.cursor.item/text_note" />
+62-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:17-78
+62-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:23-75
+63                <data android:mimeType="vnd.android.cursor.item/call_note" />
+63-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:17-78
+63-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:50:23-75
+64            </intent-filter>
+65            <intent-filter>
+65-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:61:13-64:29
+66                <action android:name="android.intent.action.SEARCH" />
+66-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:62:17-71
+66-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:62:25-68
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:49:17-76
+68-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:49:27-73
+69            </intent-filter>
+70
+71            <meta-data
+71-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:66:13-68:54
+72                android:name="android.app.searchable"
+72-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:67:17-54
+73                android:resource="@xml/searchable" />
+73-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:68:17-51
+74        </activity>
+75
+76        <provider
+76-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:71:9-74:43
+77            android:name="net.micode.notes.data.NotesProvider"
+77-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:72:13-63
+78            android:authorities="micode_notes"
+78-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:73:13-47
+79            android:multiprocess="true" />
+79-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:74:13-40
+80
+81        <receiver
+81-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:76:9-89:20
+82            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+82-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:77:13-57
+83            android:exported="false"
+83-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:79:13-37
+84            android:label="@string/app_widget2x2" >
+84-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:78:13-50
+85            <intent-filter>
+85-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:80:13-84:29
+86                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+86-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:81:17-84
+86-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:81:25-81
+87                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+87-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:82:17-85
+87-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:82:25-82
+88                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+88-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:83:17-85
+88-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:83:25-82
+89            </intent-filter>
+90
+91            <meta-data
+91-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:86:13-88:58
+92                android:name="android.appwidget.provider"
+92-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:87:17-58
+93                android:resource="@xml/widget_2x_info" />
+93-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:88:17-55
+94        </receiver>
+95        <receiver
+95-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:90:9-104:20
+96            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+96-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:91:13-57
+97            android:exported="false"
+97-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:93:13-37
+98            android:label="@string/app_widget4x4" >
+98-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:92:13-50
+99            <intent-filter>
+99-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:80:13-84:29
+100                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+100-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:81:17-84
+100-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:81:25-81
+101                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+101-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:82:17-85
+101-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:82:25-82
+102                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+102-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:83:17-85
+102-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:83:25-82
+103            </intent-filter>
+104
+105            <meta-data
+105-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:86:13-88:58
+106                android:name="android.appwidget.provider"
+106-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:87:17-58
+107                android:resource="@xml/widget_4x_info" />
+107-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:88:17-55
+108        </receiver>
+109        <receiver
+109-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:106:9-111:20
+110            android:name="net.micode.notes.ui.AlarmInitReceiver"
+110-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:106:19-55
+111            android:exported="false" >
+111-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:107:13-37
+112            <intent-filter>
+112-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:108:13-110:29
+113                <action android:name="android.intent.action.BOOT_COMPLETED" />
+113-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:109:17-79
+113-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:109:25-76
+114            </intent-filter>
+115        </receiver>
+116        <receiver
+116-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:113:9-116:20
+117            android:name="net.micode.notes.ui.AlarmReceiver"
+117-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:114:13-61
+118            android:process=":remote" >
+118-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:115:13-38
+119        </receiver>
+120
+121        <activity
+121-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:118:9-123:20
+122            android:name="net.micode.notes.ui.AlarmAlertActivity"
+122-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:119:13-50
+123            android:label="@string/app_name"
+123-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:120:13-45
+124            android:launchMode="singleInstance"
+124-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:121:13-48
+125            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
+125-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:122:13-75
+126        </activity>
+127        <activity
+127-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:125:9-130:20
+128            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+128-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:126:13-71
+129            android:label="@string/preferences_title"
+129-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:127:13-54
+130            android:launchMode="singleTop"
+130-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:128:13-43
+131            android:theme="@android:style/Theme.Holo.Light" >
+131-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:129:13-60
+132        </activity>
+133
+134        <service
+134-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:132:9-135:19
+135            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+135-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:133:13-74
+136            android:exported="false" >
+136-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:134:13-37
+137        </service>
+138
+139        <meta-data
+139-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:137:9-139:52
+140            android:name="android.app.default_searchable"
+140-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:138:13-58
+141            android:value=".ui.NoteEditActivity" />
+141-->C:\Users\Administrator\AndroidStudioProjects\MiCode\app\src\main\AndroidManifest.xml:139:13-49
+142    </application>
+143
+144</manifest>
